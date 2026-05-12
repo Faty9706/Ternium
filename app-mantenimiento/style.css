@@ -31,8 +31,8 @@ body::before{
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)),
-  url("img/fondo.jpg");
+  background:linear-gradient(rgba(0, 0, 0, 0.137),rgba(0,0,0,.8)),
+  url("img/acero.jpg");
   background-size:cover;
 }
 
@@ -226,4 +226,21 @@ td{
 .logout:hover{
   background:#ff4d4d;
   color:white;
+}
+.login-title{
+  font-size: 38px;      /* cámbialo al tamaño que quieras */
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+.login-logo{
+  width: 300px;     /* tamaño del logo */
+  margin-bottom: 10px;
+}
+.login-subtitle{
+  font-size: 25px;      /* cámbialo al tamaño que quieras */
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
 }
